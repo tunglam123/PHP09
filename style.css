@@ -1,0 +1,23 @@
+#text{
+	height: 200px;	
+	color:red;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: lam123;
+	text-align:center;
+}
+#logo{
+	float: left;
+}
+content{
+	height: 200px;
+	font-size: 17px;
+}
+footer{
+	text-align:right;
+	height: 100px;
+}
+@font-face{
+	font-family: lam123;
+	src: url(acme/Acme-Regular.ttf);
+}
