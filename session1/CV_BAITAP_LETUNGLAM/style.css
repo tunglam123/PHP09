@@ -1,0 +1,16 @@
+body{
+	font-size: 15px;
+	color:black;
+	background: white;
+	font-family: tahoma;
+}
+.l{
+	text-align: left;
+	float: left;
+}
+h3{
+	font-size: 20px;
+}
+p{
+	font-size: 14px;
+}

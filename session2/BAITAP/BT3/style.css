@@ -1,0 +1,60 @@
+#tweets{
+	width: 330px;
+	height: 600px;
+	background-color: #00e6e6;
+	padding-top: 20px;
+	float: left;
+	border: 1px solid #000;
+}
+#tweets p{
+	text-align:center;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#replies{
+	width: 330px;
+	height: 600px;
+	float: left;
+	background-color: #ffff00;
+	padding-top: 20px;
+	border: 1px solid #000;
+}
+#replies p{
+	text-align:center;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#search{
+	width: 330px;
+	height: 600px;
+	float: left;
+	background-color: #5c5c3d;
+	padding-top: 20px;
+	border: 1px solid #000;
+}
+#search p{
+	text-align:center;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#messages {
+	width: 330px;
+	height: 600px;
+	float: left;
+	background-color: #4d88ff;
+	padding-top: 20px;
+	border: 1px solid #000;
+}
+#messages p{
+	text-align:center;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
