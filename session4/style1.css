@@ -1,0 +1,77 @@
+#header{
+	padding: 20px;
+	margin: 20px;
+	font-size: 13px;
+}
+ul{
+	width: 1000px;
+}
+li{
+	float: left;
+}
+ul li.home{
+	list-style-image: url('3.png');
+	border:3px solid black;
+	width: 80px;
+	height: 60px;
+	text-align:center;
+	margin: 20px;
+	margin-left: 50px;
+}
+ul li.home a:hover{
+	color: red;
+}
+ul li.new{
+	list-style-image: url('2.png');
+	border:3px solid black;
+	width: 80px;
+	height: 60px;
+	text-align:center;
+	margin: 20px;
+	margin-left: 50px;
+}
+ul li.new a:hover{
+	color: green;
+}
+ul li.music{
+	list-style-image: url('1.png');
+	border:3px solid black;
+	width: 80px;
+	height: 60px;
+	text-align:center;
+	margin: 20px;
+	margin-left: 50px;
+}
+ul li.music a:hover{
+	color: yellow;
+}
+ul li.football a:hover{
+	color: yellow;
+}
+ul li.football{
+	list-style-image: url('4.png');
+	border:3px solid black;
+	width: 80px;
+	height: 60px;
+	text-align:center;
+	margin: 20px;
+	margin-left: 50px;
+}
+ul li.tennis{
+	list-style-image: url('5.png');
+	border:3px solid black;
+	width: 80px;
+	height: 60px;
+	text-align:center;
+	margin: 20px;
+	margin-left: 50px;
+}
+ul li.contactus{
+	list-style-image: url('6.png');
+	border:3px solid black;
+	width: 80px;
+	height: 60px;
+	text-align:center;
+	margin: 20px;
+	margin-left: 50px;
+}
