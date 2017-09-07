@@ -1,0 +1,298 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#banner{
+	width: 100%;
+	height: 180px;
+}
+.logo img{
+	width: 150px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.menu{
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.menu ul li{
+	float: left;
+	padding: 20px;
+	margin-top: 60px;
+	list-style: none;
+	margin-right: 50px;
+}
+.menu ul li a{
+	color: lightblue;
+	text-decoration: none;
+}
+#left{
+	width: 470px;
+	height: 300px;
+	margin-top: 10px;
+	float: left;	
+	margin-left: 20px;
+}
+.content2{
+	width: 390px;
+	height: 180px;
+	margin-left: 40px;
+	float: left;	
+	background-color: lightblue;
+}
+.content3{
+	width: 90px;
+	height: 80px;
+	margin-left: 40px;
+	margin-top: 10px;
+	float: left;	
+	background-color: lightblue;
+}
+.content4{
+	width: 90px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;	
+	background-color: lightblue;
+}
+.content5{
+	width: 90px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;	
+	background-color: lightblue;
+}
+.content6{
+	width: 90px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;	
+	background-color: lightblue;
+}
+#right{
+	width: 790px;
+	height: 350px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+.right1{
+	width: 700px;
+	height: 80px;
+}
+.right1 h2{
+	font-family: tahoma;
+	font-size: 25px;
+	color: #0039e6;
+	margin-left: 20px;
+}
+.right1 p{
+	margin-top: 10px;
+	font-size: 14px;
+	color: lightblue;
+	margin-left: 20px;
+	border-bottom: 1px solid lightblue;
+}
+.right2{
+	width: 400px;
+	height: 70px;
+	margin-left: 20px;
+	float: left;
+	color: blue;
+	font-weight: bold;
+	font-family:arial;
+	font-size: 12px;
+}
+.right3{
+	width: 200px;
+	height: 70px;
+	background-color:lightblue;
+	margin-left: 20px;
+	margin-top: 80px;
+}
+.right3 h3{
+	text-align: center;
+}
+.right3 p{
+	text-align: center;
+	margin-top: 10px;
+	background-color:blue;
+	border: 3px solid black;
+}
+.right4{
+	width: 400px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.right4 p{
+	color: lightblue;
+}
+#product{
+	width:100%;
+	height: 500px;
+}
+#product h2{
+	text-align: center;
+	font-family: arial;
+}
+.product1{
+	width: 240px;
+	height: 140px;
+	float: left;
+	background-color: lightblue; 
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.product2{
+	width: 240px;
+	height: 140px;
+	float: left;
+	background-color: lightblue; 
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.product3{
+	width: 240px;
+	height: 140px;
+	float: left;
+	background-color: lightblue; 
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.product4{
+	width: 240px;
+	height: 140px;
+	float: left;
+	background-color: lightblue; 
+	margin-left: 15px;
+	margin-top: 20px;
+}
+footer{
+	width: 100%;
+	height: 300px;
+	margin-top: 100px;
+	background-color: lightblue;
+}
+.logo1 img{
+	width: 150px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.footer2{
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: tahoma;
+}
+.footer2 h4{
+	margin-left: 10px;
+}
+.footer2 ul li{
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.footer3{
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: tahoma;
+}
+.footer3 h4{
+	margin-left: 10px;
+}
+.footer3 ul li{
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.footer4{
+	width: 270px;
+	height: 200px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: tahoma;
+}
+.footer4 h4{
+	margin-left: 10px;
+}
+.footer4 p{
+	font-family: tahoma;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.footer5{
+	width: 300px;
+	height: 200px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: tahoma;
+}
+.footer5 h4{
+	margin-left: 20px;
+}
+.footer5 p{
+	font-family: tahoma;
+	font-size: 12px;
+	margin-top: 10px;
+}
+#border{
+	width: 260px;
+	height: 60px;
+	background-color: grey;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 2px solid black;
+}
+#border1{
+	width: 55px;
+	height: 40px;
+	background-color: grey;
+	float: left;	
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 2px solid black;
+}
+#border2{
+	width: 55px;
+	height: 40px;
+	background-color: grey;
+	float: left;	
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 2px solid black;
+}
+#border3{
+	width: 55px;
+	height: 40px;
+	background-color: grey;
+	float: left;	
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 2px solid black;
+}
+#border4	{
+	width: 55px;
+	height: 40px;
+	background-color: grey;
+	float: left;	
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 2px solid black;
+}
