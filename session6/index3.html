@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+<header>
+<form name="email_form" action="" method="post">
+	<p>Please enter an email address</p>
+	<p>Email : <input type="text" name="email" required="required" placeholder="Please input your Email"></p>
+	<p>ID : <input type="hidden" name="id"></p>
+	<p>Mật khẩu:<input type="password" name="password" placeholder="Please input your password" maxlength="5"></p>
+	<br>
+	<p>	Upload File <input type="file" name="img"></p>
+	<p><input type="submit" name="submit" value="Subscibe"></p>
+	<p><input type="image" name="image" alt="img" src="5.jpg" width="100px;"></p>
+	<p><button type="submit">Add To Cart</button></p>
+</form>
+
+<form name="myform" action="order.php" method="post">
+	Crust:<br>
+	<input type="radio" name="crust" value="thin">Thin Crust<br>
+	<input type="radio" name="crust" value="deep" checked="">Deep Dish<br>
+	<input type="radio" name="crust" value="hand">Hand Tossed<br><br>
+	Toppings:<br>
+	<input type="checkbox" name="topping1" value="pepperon1">Pepperon1<br>
+	<input type="checkbox" name="topping2" value="mushrooms">Mushroom<br>
+	<input type="checkbox" name="topping3" value="olives">Olives
+</form><br>
+Listbox"<br>
+<select name="style_and_size" size="4" width="10px">
+	<optgroup label="The New Yorker">
+		<option value="NY10">10</option>
+		<option value="NY12" selected="">12</option>
+		<option value="NY16">16</option>
+	</optgroup>	
+</select>
+<form>
+<br>
+Comment<br><br><textarea placeholder="text"></textarea>
+<p>Name: <input type="text" name="name" required autofocus><br></p>
+<p>Zip:<input type="text" name="zip" required pattern="\d{5} ([\-]\d{4})?" title="Must be 99999 or 999999-99999"><br></p>
+
+</form>
+</header>
+</body>
+</html>
