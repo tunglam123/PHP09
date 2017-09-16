@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+			<form>
+			Price :<input type="text" name="price" id="price" onchange = 'document.getElementById("prubtHere").innerHTML = document.getElementById("price").value;'>
+			<br>
+			<br>
+			Discount :<input type="text" name="discount" id="discount">
+			<br>
+			<br>
+			<input type="button"  value="Buy" onclick='document.getElementById("discounttHere").innerHTML = document.getElementById("price").value *document.getElementById("discount").value /100'>
+		</form>
+		<div id="prubtHere"></div>
+		<div id="discounttHere"></div>
+		</body>
+</html>	
