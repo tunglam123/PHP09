@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="left">
+			<h3>facebook</h3>
+		</div>
+		<div class="right">
+			<p>Email hoặc điện thoại</p>
+			<input type="text" name="email" required="required">
+
+		</div>
+		<div class="right1">
+			<p>Mật khẩu</p>
+			<input type="password" name="password" required="required">
+			<p style="font-size: 12px;color:lightblue;"><a href="#"> Quên mật khẩu</a></p>
+		</div>
+		<div class="right3">
+			<input type="submit" name="submit" placeholder="Đăng nhâp">
+		</div>
+	</div>
+	<div id="content">
+		<div class="leftcontent">
+			<div id="text">
+				<h3>Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn.</h3>
+				</div>
+			<div id="img">
+				<img src="1.png">
+			</div>	
+		</div>
+		<div class="rightcontent">
+			<h1>Đăng ký</h1>
+			<p>Luôn miễn phí.</p>
+			<br>
+			<input type="text" name="last_name" placeholder="Họ" required="required" style="height: 40px; margin-left: 5px;border-radius:1px">
+			<input type="text" name="first_name" placeholder="Tên" required="required" style="height: 40px; margin-left: 5px;border-radius:1px;" >
+			<br>
+			<br>
+			<form name="myForm" onsubmit="return validateForm();" method="post">
+				<input type="text" name="email" placeholder="email" required="required" style="height: 40px; margin-left: 5px;border-radius:1px;" >
+				<input type="submit" value="Submit">
+			</form>
+			<br>
+			<br>
+			<input type="date" name="date" placeholder="date" required="required" style="height: 40px; margin-left: 5px;border-radius:1px;">
+			<br>
+			<br>
+			<select name="gender" id="gender" style="margin-left: 10px;">
+				<option value="1">Mr</option>
+				<option value="2">Mrs</option>
+			</select>
+			<br>
+			<br>
+            <input type="password" id="txtPassword" placeholder="Password" required="required" style="height: 40px; margin-left: 5px;border-radius:1px;" />
+            <input type="password" id="txtConfirmPassword" placeholder="Confirm Password:" required="required" style="height: 40px; margin-left: 5px;border-radius:1px;" />
+            <br>
+            <br>
+            <div id="text1">
+            <p>Bằng cách nhấp vào Tạo tài khoản, bạn đồng ý với Điều khoản của chúng tôi và rằng bạn đã đọc Chính sách dữ liệu của chúng tôi, bao gồm Sử dụng cookie. Bạn có thể nhận được thông báo qua SMS từ Facebook và có thể bỏ chọn bất kỳ lúc nào.</p>
+            </div>
+            <br>
+            <input type="button" id="btnSubmit" value="TẠO TÀI KHOẢN" onclick="return Validate()" style="height: 40px; margin-left:30px;background: green; color: white; width: 200px;" />
+		</div>
+	</div>
+	<script type="text/javascript" src="common.js"></script>
+</body>
+</html>
